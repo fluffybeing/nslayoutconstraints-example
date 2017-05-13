@@ -22,8 +22,7 @@ class ViewController: UIViewController {
         
         return label
     }()
-    
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -41,7 +40,7 @@ class ViewController: UIViewController {
         
         // Constraints: X, Y, Width, Height
         titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+//        titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         titleLabel.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         titleLabel.widthAnchor.constraint(equalToConstant: titleLabelWidth).isActive = true
         titleLabel.heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
